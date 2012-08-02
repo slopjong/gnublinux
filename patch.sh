@@ -10,7 +10,7 @@ git checkout 093e9d2f7f730dee86d6734f7a66fc573bcd7027
 # patch the source
 for patch in ${patches[@]}
 do
-  patch -p1 < "${patch_path}/${patch}.patch"
+  patch -p1 < "../${patch_path}/${patch}.patch"
 done
 
-cp "${patch_path}/config-adcpwm" .config 
+cp "../${patch_path}/config-adcpwm" .config 
