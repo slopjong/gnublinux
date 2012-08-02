@@ -1,6 +1,6 @@
 #!/bin/bash
 
-patches=( '001-mmc-card-detect' '002-gpiolib 003-usb-panic' 'adc-registers' '006_lpc313x_ADC_PWM' )
+patches=( '001-mmc-card-detect' '002-gpiolib 003-usb-panic' 'adc-registers' '0006_lpc313x_ADC_PWM' )
 patch_path="gnublin/lpc3131/kernel/2.6.33"
 
 # change to the linux source directory
