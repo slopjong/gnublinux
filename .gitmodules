@@ -1,0 +1,6 @@
+[submodule "linux-2.6.33-lpc313x"]
+	path = linux-2.6.33-lpc313x
+	url = git://git.lpclinux.com/linux-2.6.33-lpc313x
+[submodule "gnublin"]
+	path = gnublin
+	url = https://code.google.com/p/gnublin/
