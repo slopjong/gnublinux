@@ -12,6 +12,9 @@ git clean -f
 git stash #save clean_56123j123g124
 git stash drop #clean_56123j123g124
 
+# switch back to HEAD
+git checkout master
+
 # patch again
 #../patch.sh
 echo "Don't forget to reapply the patch if you rebuild the kernel and its modules."
