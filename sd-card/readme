@@ -1,0 +1,3 @@
+This directory serves as the mount point of the gnublin SD memory card. The actual mount operation
+is executed by the script mount.sh . Have a look at that script to see what entry in /etc/fstab
+you have to append. 
