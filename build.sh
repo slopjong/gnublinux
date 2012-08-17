@@ -16,8 +16,9 @@ fi
 if [ ! -d "${gnublinRoot}" ]; then
   echo "The path you provided doesn't exist. The built kernel and modules"
   echo "will be installed to sd-card"
-  mkdir -p ../sd-card
   gnublinRoot="../sd-card"
+  
+  # mount the SD memory card 
   ./mount.sh
 fi
 
