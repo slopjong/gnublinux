@@ -1,6 +1,7 @@
 #!/bin/bash
 
-./setenv.sh
+source ./setenv.sh
+
 cd linux*
 
 # compile the kernel and the modules
@@ -19,7 +20,7 @@ if [ ! -d "${gnublinRoot}" ]; then
   gnublinRoot="../sd-card"
   
   # mount the SD memory card 
-  ./mount.sh
+  ../mount.sh
 fi
 
 # Start a fakeroot session
