@@ -25,7 +25,7 @@ The UART is not directly accessible on a pin header. On-board there's a USB UART
 Operating system
 ----------------
 
-The Gnublin board comes with a SD memory card and a pre-installed linux. The board is ready to be used, plug a USB cable to the port labeled with RS232 and start a serial communication program such as minicom and picocom. The hardware flow control must be turned off and the bitrate to 115200 with the parameter setting 8N1 (8 data bits, no parity bit and one stop bit).
+The Gnublin board comes with a SD memory card and a pre-installed linux. The board is ready to be used, plug a USB cable to the port labeled with RS232 and start a serial communication program such as minicom and picocom. The hardware flow control must be turned off and the bitrate set to 115200 with the parameter setting 8N1 (8 data bits, no parity bit and one stop bit).
 
 Compiling the kernel & modules
 ------------------------------
