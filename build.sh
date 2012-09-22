@@ -20,7 +20,10 @@ if [ ! -d "${gnublinRoot}" ]; then
   gnublinRoot="../sd-card"
   
   # mount the SD memory card 
-  ../mount.sh
+  
+  # comment this line out if you added an entry into /etc/fstab as described
+  # in the mount.sh script
+  #../mount.sh
 fi
 
 # Start a fakeroot session
