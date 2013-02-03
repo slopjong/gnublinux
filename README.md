@@ -1,7 +1,7 @@
 gnublinux
 =========
 
-![Gnublin.jpg](gnublinux/raw/master/Gnublin.jpg)
+![Gnublin.jpg](Gnublin.jpg)
 
 Gnublin is a low-cost embedded GNU/Linux board based on a low-power ARM9 microcontroller unit. 
 
